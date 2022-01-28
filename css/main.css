@@ -91,6 +91,7 @@ header {
     margin-bottom: 13px;
     align-items: center;
     vertical-align: middle;
+    position: relative;
 }
 
 .header__box__address {
@@ -115,7 +116,7 @@ header {
     height: 13px;
     align-items: center;
     vertical-align: middle;
-    left: 364px;
+    left: 180px;
     top: 4px;
     
     
@@ -948,6 +949,7 @@ color:
     position: relative;
     width: 305px;
     background-color: #fff;
+    border-radius: 5px;
 }
 
 
@@ -1029,12 +1031,18 @@ color:
     width: 640px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    border-radius: 5px;
 }
 
 .section-bascic__item__box__time--active{
     margin-top: 0px;
     margin-left: 38px;
     
+}
+
+
+.section-bascic__item__box-item__image{
+    height: 464px; 
 }
 
 .section-bascic__item__box--active{
@@ -1086,8 +1094,8 @@ color:
     width: 30px;
     height: 29px;
     background-repeat: no-repeat;
-    bottom: 56px;
-    left: 332px;
+    bottom: 34px;
+    left: 350px;
     
 }
 
@@ -1133,6 +1141,7 @@ color:
 
 .feedback__box__iframe{
     border:none;
+    
 }
 
 .feedback__our-box{
